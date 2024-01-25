@@ -33,3 +33,25 @@ describe('First Teste Cypress', () => {
 })
 
 
+describe('My First Test', () => {
+  // beforeEach(() => {
+  //   cy.mount(<Home />);
+  // });
+  it('Achar o botao', () => {
+    cy.mount(<Home/>)
+    cy.contains('Add')
+    cy.contains('Add').click
+  });
+
+})
+
+describe('Teste do hook', () =>{
+
+  it('Teste Hook',() => {
+
+  })
+
+
+})
+
+
